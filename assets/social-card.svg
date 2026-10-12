@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+ <rect width="1200" height="630" fill="#244a43"/>
+ <circle cx="984" cy="344" r="290" fill="#325e50"/>
+ <circle cx="984" cy="344" r="240" fill="none" stroke="#b8d0ba" stroke-dasharray="4 12" opacity=".6"/>
+ <text x="90" y="115" fill="#f6ce82" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="6">AN ILLUSTRATED FIELD GUIDE</text>
+ <text x="88" y="245" fill="#fff7e6" font-family="Georgia,serif" font-size="90">Every cat wears</text>
+ <text x="88" y="346" fill="#f6ce82" font-family="Georgia,serif" font-size="102" font-style="italic">a story.</text>
+ <text x="92" y="421" fill="#d7e7dc" font-family="Arial,sans-serif" font-size="30">10 cat coat patterns. One curious little atlas.</text>
+ <rect x="88" y="480" width="329" height="62" rx="31" fill="#f6ce82"/>
+ <text x="123" y="520" fill="#244a43" font-family="Arial,sans-serif" font-size="23" font-weight="700">THE CAT COAT ATLAS  ↗</text>
+ <path d="M860 276 Q850 225 858 150 L922 192 Q972 178 1014 191 L1078 150 Q1089 235 1076 276 Q1107 335 1074 392 Q1041 445 968 442 Q897 444 863 390 Q835 336 860 276 Z" fill="#deb581" stroke="#f4dfc0" stroke-width="6"/>
+ <g fill="none" stroke="#80593e" stroke-width="15" stroke-linecap="round"><path d="M927 184 L940 267"/><path d="M971 183 L972 265"/><path d="M1011 187 L1000 267"/><path d="M858 311 L916 329"/><path d="M1081 311 L1026 329"/></g>
+ <ellipse cx="921" cy="348" rx="12" ry="19" fill="#214c42"/><ellipse cx="1018" cy="348" rx="12" ry="19" fill="#214c42"/>
+ <path d="M954 385 Q970 374 984 385 L969 397Z" fill="#c87970"/><path d="M969 397 V410 Q952 421 946 409 M969 410 Q986 421 993 409" fill="none" stroke="#31463d" stroke-width="4" stroke-linecap="round"/>
+ <path d="M912 397 L846 389 M914 412 L843 425 M1027 398 L1101 389 M1025 412 L1093 426" fill="none" stroke="#f1dfc9" stroke-width="4" stroke-linecap="round"/>
+ <g fill="#f6ce82"><path d="M765 162 l12 20 24 4 -21 12 -4 24 -12 -23 -24 -5 23 -11Z"/><path d="M1097 83 l9 15 18 3 -15 10 -3 18 -10 -17 -18 -3 18 -9Z"/></g>
+</svg>

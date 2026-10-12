@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#244a43">
+  <meta name="description" content="Learn to identify 10 common cat coat patterns, from mackerel tabby and calico to colorpoint. Explore original illustrations, compare markings, and try a free interactive coat-pattern finder.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Cat Coat Atlas — A visual guide to cat patterns">
+  <meta property="og:description" content="Stripes, spots, swirls, patches: explore 10 cat coat looks and find the name for your cat's markings.">
+  <meta property="og:image" content="assets/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cat Coat Patterns & Colors | The Cat Coat Atlas</title>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"The Cat Coat Atlas: Cat Coat Patterns & Colors","description":"An illustrated educational guide and rule-based visual coat pattern finder for common domestic cat markings.","inLanguage":"en","isAccessibleForFree":true}
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="The Cat Coat Atlas home">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span class="brand-name">the <strong>cat coat</strong> atlas<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-controls="primaryNav" aria-expanded="false" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="primaryNav" aria-label="Main navigation">
+        <a href="#patterns">Coat library</a>
+        <a href="#finder">Pattern finder</a>
+        <a href="#science">Coat science</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+      <a class="header-cta" href="#finder">Find your pattern <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A field guide for curious cat people</p>
+          <h1 id="hero-title">Every cat<br>wears a <em>story.</em></h1>
+          <p class="hero-description">Swirls, stripes, spots, and splashes of color. Learn what makes your cat's coat one of a kind—and find the words to describe it.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#finder">Discover your cat's pattern <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-text" href="#patterns">Explore the atlas <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-footnote"><span class="mini-stars" aria-hidden="true">✦ ✦ ✦</span> 10 illustrated coat looks · No sign-up · Just curiosity</div>
+        </div>
+        <div class="hero-visual" aria-label="Three illustrations showing different cat coat patterns">
+          <div class="visual-back-circle"></div>
+          <div class="decor decor-star decor-star-one" aria-hidden="true">✳</div>
+          <div class="decor decor-star decor-star-two" aria-hidden="true">✦</div>
+          <div class="cat-showcase cat-showcase-main">
+            <span class="cat-showcase-tag"><span class="tag-dot"></span> the stripe story</span>
+            <img src="assets/cats/mackerel.svg" width="320" height="260" alt="Illustration of a striped mackerel tabby cat">
+            <span class="showcase-caption">Mackerel tabby <span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="cat-showcase cat-showcase-left">
+            <img src="assets/cats/calico.svg" width="320" height="260" alt="Illustration of a calico cat with orange, black and white patches">
+            <span class="showcase-caption">Calico</span>
+          </div>
+          <div class="cat-showcase cat-showcase-right">
+            <img src="assets/cats/colorpoint.svg" width="320" height="260" alt="Illustration of a colorpoint cat with darker face and ears">
+            <span class="showcase-caption">Colorpoint</span>
+          </div>
+          <div class="visual-note"><span aria-hidden="true">↗</span> Same species.<br>Endless little masterpieces.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Coat facts">
+      <div class="container ticker-inner">
+        <span>NOT A BREED</span><span class="ticker-symbol" aria-hidden="true">✳</span>
+        <span>A PATTERN</span><span class="ticker-symbol" aria-hidden="true">✳</span>
+        <span>A LITTLE GENETICS</span><span class="ticker-symbol" aria-hidden="true">✳</span>
+        <span>A LOT OF PERSONALITY</span>
+      </div>
+    </section>
+
+    <section class="section library-section" id="patterns" aria-labelledby="patterns-title">
+      <div class="container">
+        <div class="section-heading library-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark">01 / Meet the markings</p>
+            <h2 id="patterns-title">The coat <em>library.</em></h2>
+            <p class="section-subtitle">Start with the overall picture. These illustrated examples show common looks; real cats can combine several features.</p>
+          </div>
+          <div class="heading-aside" aria-hidden="true"><span>10</span><small>lovely looks<br>to know</small></div>
+        </div>
+        <div class="filter-controls" aria-label="Filter patterns">
+          <div class="filter-tabs" id="filterTabs" role="group" aria-label="Filter pattern families">
+            <button class="filter active" type="button" data-filter="all" aria-pressed="true">All patterns <span>10</span></button>
+            <button class="filter" type="button" data-filter="tabby" aria-pressed="false">Tabbies</button>
+            <button class="filter" type="button" data-filter="patchwork" aria-pressed="false">Patchwork</button>
+            <button class="filter" type="button" data-filter="other" aria-pressed="false">Other looks</button>
+          </div>
+          <label class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">Search coat patterns</span><input id="patternSearch" type="search" placeholder="Search patterns..." autocomplete="off"></label>
+        </div>
+        <p class="result-count" id="patternCount" role="status" aria-live="polite">Showing all 10 patterns</p>
+        <div class="pattern-grid" id="patternGrid">
+          <article class="pattern-card" id="mackerel" data-category="tabby" data-name="mackerel tabby striped narrow stripes">
+            <div class="card-art art-peach"><span class="card-number">01 / 10</span><img src="assets/cats/mackerel.svg" alt="Illustrated cat with narrow tabby stripes" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Tabby family</span><h3>Mackerel tabby</h3><p>Narrow, roughly parallel stripes often run down the sides, like a little tiger in a cardigan.</p><details><summary>Spot the details</summary><p>Look for thin vertical flank stripes, facial lines, and often an M-shaped forehead marking. Stripes may break or vary.</p></details></div>
+          </article>
+          <article class="pattern-card" id="classic" data-category="tabby" data-name="classic blotched tabby swirls bullseye marble">
+            <div class="card-art art-pollen"><span class="card-number">02 / 10</span><img src="assets/cats/classic.svg" alt="Illustrated cat with broad swirling markings" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Tabby family</span><h3>Classic tabby</h3><p>Bold, flowing swirls and broad bands make this coat look almost marbled.</p><details><summary>Spot the details</summary><p>Look for thick curved markings; the sides may show round or bullseye-like patterns. Also called blotched tabby.</p></details></div>
+          </article>
+          <article class="pattern-card" id="spotted" data-category="tabby" data-name="spotted tabby dots spots speckles">
+            <div class="card-art art-sage"><span class="card-number">03 / 10</span><img src="assets/cats/spotted.svg" alt="Illustrated cat with scattered round spots" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Tabby family</span><h3>Spotted tabby</h3><p>Dots and ovals replace continuous stripes. Some spots form loose rows.</p><details><summary>Spot the details</summary><p>Watch for distinct spots along the flanks. Spot size and arrangement vary, and some tabbies have both broken stripes and dots.</p></details></div>
+          </article>
+          <article class="pattern-card" id="ticked" data-category="tabby" data-name="ticked tabby agouti subtle banded hairs">
+            <div class="card-art art-lilac"><span class="card-number">04 / 10</span><img src="assets/cats/ticked.svg" alt="Illustrated cat with subtle ticked fur texture" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Tabby family</span><h3>Ticked tabby</h3><p>Individual hairs show bands of color, creating a softly speckled finish.</p><details><summary>Spot the details</summary><p>The body can look almost unstriped from a distance, though facial, leg, or tail markings may still show.</p></details></div>
+          </article>
+          <article class="pattern-card" id="tortoiseshell" data-category="patchwork" data-name="tortoiseshell tortie orange black mottled mosaic blue cream">
+            <div class="card-art art-coral"><span class="card-number">05 / 10</span><img src="assets/cats/tortoiseshell.svg" alt="Illustrated cat with black and orange tortoiseshell patches" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Patchwork family</span><h3>Tortoiseshell</h3><p>Orange-based and dark patches blend into a unique mottled mosaic, usually with little or no white.</p><details><summary>Spot the details</summary><p>Often called a tortie. A diluted version looks blue-gray and cream. Tortie cats are usually female, though exceptions exist.</p></details></div>
+          </article>
+          <article class="pattern-card" id="calico" data-category="patchwork" data-name="calico tricolor orange black white patches">
+            <div class="card-art art-cream"><span class="card-number">06 / 10</span><img src="assets/cats/calico.svg" alt="Illustrated calico cat with white orange and dark patches" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Patchwork family</span><h3>Calico</h3><p>A cheerful mix of white plus orange-based and dark patches, often in larger color blocks.</p><details><summary>Spot the details</summary><p>Also called tortoiseshell-and-white in some naming systems. The three colors can appear as black, orange and white—or diluted shades.</p></details></div>
+          </article>
+          <article class="pattern-card" id="tuxedo" data-category="other" data-name="tuxedo black white chest bib paws bicolor">
+            <div class="card-art art-blue"><span class="card-number">07 / 10</span><img src="assets/cats/tuxedo.svg" alt="Illustrated black and white tuxedo cat" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">White markings</span><h3>Tuxedo</h3><p>Usually a dark coat with crisp white on the chest, belly, and sometimes paws or face.</p><details><summary>Spot the details</summary><p>“Tuxedo” is an informal name for one style of bicolor markings, not a distinct breed or gene of its own.</p></details></div>
+          </article>
+          <article class="pattern-card" id="bicolor" data-category="other" data-name="bicolor two colors white patches piebald van">
+            <div class="card-art art-mint"><span class="card-number">08 / 10</span><img src="assets/cats/bicolor.svg" alt="Illustrated gray and white bicolor cat" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">White markings</span><h3>Bicolor</h3><p>White paired with another color or pattern in patches large or small.</p><details><summary>Spot the details</summary><p>A cat can be tabby-and-white or solid-and-white. “Van” describes a mostly white look with color concentrated near the head and tail.</p></details></div>
+          </article>
+          <article class="pattern-card" id="colorpoint" data-category="other" data-name="colorpoint pointed dark face ears paws tail light body siamese">
+            <div class="card-art art-lavender"><span class="card-number">09 / 10</span><img src="assets/cats/colorpoint.svg" alt="Illustrated cat with darker colorpoint face and ears" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Pigment pattern</span><h3>Colorpoint</h3><p>A paler body with richer pigment on cooler areas: the ears, mask, paws, and tail.</p><details><summary>Spot the details</summary><p>Commonly associated with Siamese cats, but it occurs beyond that breed. Some pointed cats also show tabby stripes on the points.</p></details></div>
+          </article>
+          <article class="pattern-card" id="solid" data-category="other" data-name="solid self colored black gray white cream one color">
+            <div class="card-art art-gray"><span class="card-number">10 / 10</span><img src="assets/cats/solid.svg" alt="Illustrated solid blue-gray cat" width="320" height="260"></div>
+            <div class="card-body"><span class="category-label">Even color</span><h3>Solid / self</h3><p>One dominant color with no obvious contrasting pattern across most of the coat.</p><details><summary>Spot the details</summary><p>Black, blue-gray and cream are examples. Faint “ghost” stripes can appear, especially in young cats or certain lighting.</p></details></div>
+          </article>
+        </div>
+        <div class="empty-state" id="emptyState" hidden><span aria-hidden="true">◌</span><h3>No coats found</h3><p>Try another name, like “tabby,” “white,” or “spots.”</p><button type="button" class="text-button" id="clearFilters">Show all patterns →</button></div>
+        <p class="library-note"><span aria-hidden="true">✳</span> Real coats don't always fit one box. A cat can be a spotted tabby <em>and</em> white, a tortie tabby (torbie), or a tabby point.</p>
+      </div>
+    </section>
+
+    <section class="section finder-section" id="finder" aria-labelledby="finder-title">
+      <div class="container finder-layout">
+        <div class="finder-intro">
+          <p class="eyebrow eyebrow-light">02 / Your turn</p>
+          <h2 id="finder-title">So, what's your cat's <em>look?</em></h2>
+          <p>Three quick questions. We'll suggest a coat pattern worth comparing against the illustrations in the atlas.</p>
+          <div class="finder-perks"><span>✳ Just visual clues</span><span>✳ No photos needed</span><span>✳ No personal data collected</span></div>
+          <div class="scribble" aria-hidden="true">↗</div>
+        </div>
+        <div class="finder-panel" id="quizApp">
+          <div class="finder-topline"><span class="panel-kicker">THE PATTERN FINDER</span><span id="quizStepLabel">QUESTION 1 OF 3</span></div>
+          <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="quizProgress"></div></div>
+          <div id="quizContent" class="quiz-content" aria-live="polite" aria-atomic="true">
+            <noscript><p>Please enable JavaScript to use the three-question pattern finder. The illustrated library above remains available without JavaScript.</p></noscript>
+          </div>
+          <div class="quiz-footer"><button type="button" class="quiz-back" id="quizBack" hidden>← Back</button><span class="quiz-notice">A visual guide, not a genetic test.</span><button type="button" class="quiz-next" id="quizNext" disabled>Continue <span aria-hidden="true">→</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section science-section" id="science" aria-labelledby="science-title">
+      <div class="container science-layout">
+        <div class="science-intro">
+          <p class="eyebrow eyebrow-dark">03 / Under the fur</p>
+          <h2 id="science-title">A little coat <em>science.</em></h2>
+          <p>Behind every marking is a combination of pigment, patterns, and the genes influencing where color appears.</p>
+          <div class="science-seal" aria-hidden="true">CATS<br><span>✳</span><br>ARE ART</div>
+        </div>
+        <div class="science-content">
+          <article class="science-row"><span class="science-index">01</span><div><h3>Pattern isn't breed</h3><p>“Tabby,” “calico,” and “tuxedo” describe coat appearance—not pedigree. Many breeds and mixed-ancestry domestic cats can share the same markings.</p></div><span class="science-glyph" aria-hidden="true">↗</span></article>
+          <article class="science-row"><span class="science-index">02</span><div><h3>Stripes begin with pigment patterns</h3><p>Tabby variations involve the distribution of dark and light pigment in fur. The agouti system influences hair banding, while other genetic factors affect the visible stripe, swirl, or spot arrangement.</p></div><span class="science-glyph" aria-hidden="true">〰</span></article>
+          <article class="science-row"><span class="science-index">03</span><div><h3>Orange-and-dark patchwork is special</h3><p>The orange/non-orange coat-color system is associated with the X chromosome. That's why tortoiseshell and calico coats are most often seen in females, although males with these patterns do occur.</p></div><span class="science-glyph" aria-hidden="true">✳</span></article>
+          <article class="science-row"><span class="science-index">04</span><div><h3>Cooler parts can grow darker</h3><p>In colorpoint cats, temperature-sensitive pigment production creates darker color on the face, ears, paws, and tail. A kitten's coat can change as it grows.</p></div><span class="science-glyph" aria-hidden="true">☼</span></article>
+          <p class="source-note">Want to dig deeper? Explore the <a href="https://vgl.vetmed.ucdavis.edu/resources/cat-coat-color" target="_blank" rel="noopener noreferrer">UC Davis Veterinary Genetics Laboratory's coat-color overview</a> and the <a href="https://cfa.org/coat-color-descriptions/" target="_blank" rel="noopener noreferrer">Cat Fanciers' Association's coat descriptions</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="breed-section" id="breed" aria-labelledby="breed-title">
+      <div class="container breed-card">
+        <div class="breed-content">
+          <p class="eyebrow eyebrow-dark">Coat clues are only the beginning</p>
+          <h2 id="breed-title">Coat pattern ≠ <em>cat breed.</em></h2>
+          <p>Two cats with similar stripes may have very different backgrounds. Coat markings describe what you see, while breed identification looks more broadly at the face, ears, body proportions, fur type, and documented ancestry.</p>
+          <p>Curious about a possible breed match beyond the coat? Try the free photo-based visual identifier at <a class="brand-backlink" href="https://www.whatismycatbreed.com/" target="_blank" rel="noopener noreferrer">WhatisMyCatBreed.com</a>. It compares multiple visible features to suggest possible matches—not proof of breed, pedigree, or genetic ancestry.</p>
+        </div>
+        <div class="breed-illustration" aria-hidden="true"><div class="breed-sun"></div><img src="assets/cats/classic.svg" alt="" width="320" height="260"><span class="breed-handwritten">more than<br>meets the eye ↗</span></div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div><p class="eyebrow eyebrow-dark">04 / Good questions</p><h2 id="faq-title">Curiosity looks<br><em>good on you.</em></h2><p class="faq-intro">A few common mix-ups, cleared up.</p></div>
+        <div class="faq-list">
+          <details><summary>Is tabby a cat breed?<span aria-hidden="true">+</span></summary><p>No. Tabby refers to a family of coat patterns, including striped, blotched, spotted and ticked forms. Cats from many breeds and mixed backgrounds may be tabbies.</p></details>
+          <details><summary>What is the difference between calico and tortoiseshell?<span aria-hidden="true">+</span></summary><p>Both combine orange-based and dark colors. Tortoiseshell coats typically have little or no white; calico coats include significant white spotting, often making colored patches appear more separated.</p></details>
+          <details><summary>Can a cat have more than one pattern?<span aria-hidden="true">+</span></summary><p>Yes. A tabby can also have white patches; a tortie with tabby markings is sometimes called a torbie; and a colorpoint cat can show stripes on the darker points. The finder suggests a starting label, not a complete coat classification.</p></details>
+          <details><summary>Are all colorpoint cats Siamese?<span aria-hidden="true">+</span></summary><p>No. Colorpoint is a coat pattern seen in Siamese and other cats. Appearance alone does not establish pedigree or ancestry.</p></details>
+          <details><summary>Does this tool analyze photos or identify breeds?<span aria-hidden="true">+</span></summary><p>No. This mini-site uses your answers to three visual questions to suggest common coat-pattern labels. It does not upload or analyze photos, infer DNA, or verify a breed.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top"><div><a class="footer-brand" href="#top">the cat coat atlas<span>.</span></a><p>A tiny illustrated guide to the big world of cat coats.</p></div><a class="footer-top-link" href="#top">Back to the top ↑</a></div>
+    <div class="container footer-bottom"><p>Original illustrations and educational text · Made for curious cat people</p><p>Coat names are descriptive, not pedigree verification.</p></div>
+  </footer>
+</body>
+</html>
